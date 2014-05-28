@@ -1,0 +1,30 @@
+{
+    "name": "spark",
+    "version": "0.0.1",
+    "description": "An application to work with a spark",
+    "private": false,
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adslaton/spark"
+    },
+    "author": {
+        "name": "A.D. Slaton",
+        "email": "slaton.ad@gmail.com"
+    },
+    "dependencies": {
+        "cylon-gpio": "0.14.0",
+        "cylon-spark": "0.8.0",
+        "cylon": "0.14.0"
+    },
+    "engines": {
+        "node": "0.10.x",
+        "npm": "1.2.x"
+    },
+    "keywords": [
+        "spark"
+    ]
+}
