@@ -1,1 +1,1 @@
-An application to work with a spark
+An application to control a spark
