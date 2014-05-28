@@ -1,13 +1,16 @@
-var Cylon = require('cylon');
+var Cylon = require('cylon'),
+    cfg = require('./cfg')('local');
+
+Cylon.api({ host: cfg.host, port: cfg.port });
 
 // Initialize the robot
 Cylon.robot({
     connection: { 
-        name: 'voodoospark',
-        adaptor: 'voodoospark',
-        accessToken: '5f74fccbbb85f0516dda03273e45725f2c9bd26e',
-        deviceId: '55ff6d065075555349521687',
-        module: 'spark' 
+        name: cfg.name,
+        adaptor: cfg.adaptor,
+        accessToken: cfg.accessToken,
+        deviceId: cfg.deviceId,
+        module: cfg.module
     },
     device: { 
         name: 'led',
@@ -17,6 +20,7 @@ Cylon.robot({
 
     work: function(my) {
         var date;
+
         every((5).second(), function() {
             date = new Date();
             my.led.toggle();
