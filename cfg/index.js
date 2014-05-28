@@ -14,10 +14,9 @@ var config = {
 
 /**
  * @module Config
- * @memberof ABSTRACTOR
+ * @memberof SPARK
  * @desc Manages all the configuration per environment
- * @prop {object} server - The Restify HTTP server
- * @prop {object} config - The configuration values
+ * @prop {string} env - The environment object to use
  */
 module.exports = function configuration(env) {
     return config[env];

@@ -1,6 +1,6 @@
 {
     "name": "spark",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "An application to work with a spark",
     "private": false,
     "main": "app.js",
