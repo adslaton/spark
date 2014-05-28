@@ -1,20 +1,5 @@
 var Cylon = require('cylon');
 
-// Start the Cylon api
-Cylon.api(
-    {
-        host: '127.0.0.1',
-        port: '3000',
-        cert: '',
-        key: '',
-        auth: {
-            type: 'basic',
-            user: 'admin',
-            pass: 'pass'
-        }
-    }
-);
-
 // Initialize the robot
 Cylon.robot({
     connection: { 
