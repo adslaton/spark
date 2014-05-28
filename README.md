@@ -10,11 +10,13 @@ or
 $ npm i
 ```
 
-### Add your device key to cfg/index.js
+### Crete and add your device key to cfg/tokens.json
 
 ```
-accessToken:    'YOUR_ACCESS_TOKEN',
-deviceId:       'YOUR_DEVICE_ID'
+{
+    accessToken:    'YOUR_ACCESS_TOKEN',
+    deviceId:       'YOUR_DEVICE_ID'
+}
 ```
 
 ### Run the app

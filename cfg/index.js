@@ -1,16 +1,17 @@
 'use strict';
 
-var config = {
-    local: {
-        host:           'localhost',
-        port:           '3000',
-        accessToken:    'YOUR_ACCESS_TOKEN',
-        deviceId:       'YOUR_DEVICE_ID',
-        name:           'voodoospark',
-        adaptor:        'voodoospark',
-        module:         'spark' 
-    }
-};
+var tokens = require('./tokens.json'),
+    config = {
+        local: {
+            host:           'localhost',
+            port:           '3000',
+            accessToken:    tokens.accessToken,
+            deviceId:       tokens.deviceId,
+            name:           'voodoospark',
+            adaptor:        'voodoospark',
+            module:         'spark' 
+        }
+    };
 
 /**
  * @module Config
