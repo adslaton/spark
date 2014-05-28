@@ -14,7 +14,7 @@ $ npm i
 
 ```
 accessToken:    'YOUR_ACCESS_TOKEN',
-deviceId:       'YOUR_DEVICE_ID',
+deviceId:       'YOUR_DEVICE_ID'
 ```
 
 ### Run the app
