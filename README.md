@@ -1,4 +1,4 @@
-An simple app to control a [spark][spark] controller with [cylonjs][cylonjs]
+An simple app to control a [spark][spark] controller with [cylonjs][cylonjs]. These instructions assume development with a MAC or Linux.
 
 ### Initialize your spark with either of the following
 
@@ -16,8 +16,12 @@ or
 $ npm i
 ```
 
-### Crete and add your device key to cfg/tokens.json
+### Create cfg/tokens.json
 
+```
+touch cfg/tokens.json
+```
+### Add your access token and device id to cfg/tokens.json
 ```
 {
     accessToken:    'YOUR_ACCESS_TOKEN',
