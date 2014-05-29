@@ -1,5 +1,9 @@
 An simple app to control a [spark][spark] controller with [cylonjs][cylonjs]
 
+### Initialize your spark with the following
+
+1. [Spark JSConf 2014][sparkjsconf]
+
 ### Install the npm packages
 
 ```
@@ -27,3 +31,4 @@ $npm start
 
 [spark]: https://www.spark.io/
 [cylonjs]: http://cylonjs.com/
+[sparkjsconf]: https://www.spark.io/jsconf
