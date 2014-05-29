@@ -3,6 +3,7 @@ An simple app to control a [spark][spark] controller with [cylonjs][cylonjs]
 ### Initialize your spark with either of the following
 
  [Spark JSConf 2014 setup][sparkjsconf]
+ 
  [Spark Documentation][sparkdocs]
 
 ### Install the npm packages
