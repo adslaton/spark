@@ -1,4 +1,6 @@
-An simple app to control a [spark][spark] controller with [cylonjs][cylonjs]. These instructions assume development with a MAC or Linux.
+An simple app to control a [spark][spark] controller with [cylonjs][cylonjs].
+
+These instructions assume development with a MAC or Linux.
 
 ### Initialize your spark with either of the following
 
