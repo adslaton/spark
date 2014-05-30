@@ -26,8 +26,8 @@ touch cfg/tokens.json
 ### Add your access token and device id to cfg/tokens.json
 ```
 {
-    accessToken:    'YOUR_ACCESS_TOKEN',
-    deviceId:       'YOUR_DEVICE_ID'
+    "accessToken":    "YOUR_ACCESS_TOKEN",
+    "deviceId":       "YOUR_DEVICE_ID"
 }
 ```
 
